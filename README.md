@@ -80,7 +80,7 @@ kubectl rollout status deployment -n cattle-system rancher
 helm upgrade --install --namespace cattle-monitoring-system rancher-monitoring-crd rancher-charts/rancher-monitoring-crd --create-namespace --wait
 helm upgrade --install --namespace cattle-monitoring-system rancher-monitoring rancher-charts/rancher-monitoring --create-namespace \
     --set alertmanager.alertmanagerSpec.resources.requests.memory=50Mi \
-    --set alertmanager.alertmanagerSpec.resources.requests.cpu=50Mi \
+    --set alertmanager.alertmanagerSpec.resources.requests.cpu=50m \
     --set prometheus.prometheusSpec.resources.requests.memory=250Mi \
     --set prometheus.prometheusSpec.resources.requests.cpu=300m \
     --set prometheus.prometheusSpec.resources.limits.memory=2500Mi \

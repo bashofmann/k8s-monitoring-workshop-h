@@ -19,7 +19,7 @@ ssh -i id_rsa root@ip
 k3sup install \
   --ip <IP> \
   --user root \
-  --k3s-channel v1.19
+  --k3s-channel v1.19 --ssh-key ./id_rsa
 export KUBECONFIG=$(pwd)/kubeconfig  
 ```
 

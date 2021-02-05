@@ -37,6 +37,7 @@ helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 helm repo add jetstack https://charts.jetstack.io
 helm repo add rancher-charts https://charts.rancher.io
 helm repo add presslabs https://presslabs.github.io/charts
+helm repo add loki https://grafana.github.io/loki/charts
 ```
 
 ## Install Rancher Management Server

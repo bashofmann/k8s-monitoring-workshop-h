@@ -66,7 +66,7 @@ helm upgrade --install rancher rancher-latest/rancher \
   --namespace cattle-system \
   --version 2.5.8 \
   --set replicas=1 \
-  --set hostname=rancher.IP.xip.io  --create-namespace 
+  --set hostname=rancher.IP.nip.io  --create-namespace 
 ```
 
 Wait until everything is ready

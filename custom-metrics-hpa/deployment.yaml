@@ -41,7 +41,7 @@ metadata:
   name: sample-app
 spec:
   rules:
-    - host: sample-app.plgrnd.be
+    - host: nip.io
       http:
         paths:
           - path: /

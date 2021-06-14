@@ -4,5 +4,5 @@ variable "hcloud_token" {
 
 variable "vm_count" {
   type = number
-  default = 13
+  default = 7
 }

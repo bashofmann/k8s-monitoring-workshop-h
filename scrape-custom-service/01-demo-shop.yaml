@@ -621,7 +621,7 @@ metadata:
   name: demo-shop
 spec:
   rules:
-    - host: demo-shop.plgrnd.be
+    - host: nip.io
       http:
         paths:
           - path: /

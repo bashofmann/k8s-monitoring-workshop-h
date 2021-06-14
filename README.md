@@ -64,7 +64,7 @@ Change hostname and install Rancher
 ```
 helm upgrade --install rancher rancher-latest/rancher \
   --namespace cattle-system \
-  --version 2.5.5 \
+  --version 2.5.8 \
   --set replicas=1 \
   --set hostname=rancher.IP.xip.io  --create-namespace 
 ```

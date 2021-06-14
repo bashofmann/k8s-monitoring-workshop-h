@@ -75,6 +75,8 @@ Wait until everything is ready
 kubectl rollout status deployment -n cattle-system rancher
 ```
 
+Go to Settings and change `ingress-ip-domain` to `nip.io`.
+
 ## Install Monitoring
 
 ```

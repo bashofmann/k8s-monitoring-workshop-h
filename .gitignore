@@ -3,3 +3,4 @@
 *.tfstate
 *.tfstate.*
 id_rsa*
+ips.txt

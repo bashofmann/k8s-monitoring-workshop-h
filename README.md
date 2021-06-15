@@ -15,6 +15,13 @@ ssh -i id_rsa root@ip
 
 ## Install K3S Kubernetes cluster
 
+Local auf VM
+```shell
+k3sup install \
+  --k3s-channel v1.20
+```
+
+oder auf Dev Machine
 ```
 k3sup install \
   --ip <IP> \

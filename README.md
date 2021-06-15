@@ -49,7 +49,7 @@ helm upgrade --install \
   cert-manager jetstack/cert-manager \
   --namespace cert-manager \
   --set installCRDs=true \
-  --version v1.0.4 --create-namespace
+  --version v1.3.1 --create-namespace
 ```
 
 Wait until everything is ready
